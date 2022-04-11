@@ -10,7 +10,7 @@ function filterByQuery(query, animalsArray) {
     // Note that we save the animalsArray as filteredResults here:
     let filteredResults = animalsArray;
     if (query.personalityTraits) {
-      // Save personalityTraits as a dedicated array!
+      // Save personalityTraits as a dedicated array.
       // If personalityTraits is a string, place it into a new array and save.
       if (typeof query.personalityTraits === 'string') {
         personalityTraitsArray = [query.personalityTraits];
